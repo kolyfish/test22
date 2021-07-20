@@ -1,13 +1,20 @@
-$color: #00cc99;
-$color2: red;
+$colorprimery: #AA0601;
+$colorDark: #650300;
 .header {
   height: 200px;
-  background-color: #00cc99;
+  background-color:$colorprimery;
+  display: flex;
 }
-
+.aoubt{
+  display: flex;
+  justify-content: space-between;
+}
+.about-list{
+  display: block;
+}
 .footer {
   height: 200px;
-  background-color: #00cc99;
+  background-color: $colorDark;
 }
 
 .box {

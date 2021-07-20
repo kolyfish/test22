@@ -1,1 +1,16 @@
-.header{height:200px;background-color:#00cc99}.footer{height:200px;background-color:#00cc99}.box{width:100px;height:100px;background-color:red;display:flex;transition:all 0.5s}.box:hover{width:200px;background-color:#0c9}
+.header{
+    height:200px;background-color:#AA0601
+}
+.aoubt{
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-list{
+    display: block;
+  }
+.footer{
+    height:200px;background-color:#00cc99
+}
+.box{
+    width:100px;height:100px;background-color:red;display:flex;transition:all 0.5s}
+    .box:hover{width:200px;background-color:#0c9}
