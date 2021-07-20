@@ -1,23 +1,16 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
-
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+@import 'reset.css';
+@import 'all.min.css';
+@import 'all.scss';
 
 .box {
   width: 100px;
   height: 100px;
   background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+  transition: all 0.5s;
+}
 
-/*# sourceMappingURL=all.css.map */
+.box:hover {
+  width: 200px;
+  background-color: #00cc99;
+}
